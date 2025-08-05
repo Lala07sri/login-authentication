@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login System</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-box">
+      <h1>🔐 Login System</h1>
+
+      <div class="form-section">
+        <h2>Register</h2>
+        <input type="text" id="regUsername" placeholder="👤 Username" />
+        <input type="password" id="regPassword" placeholder="🔒 Password" />
+        <button onclick="register()">Register</button>
+      </div>
+
+      <div class="form-section">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="👤 Username" />
+        <input type="password" id="loginPassword" placeholder="🔒 Password" />
+        <button class="login-btn" onclick="login()">Login</button>
+      </div>
+
+      <p id="message" class="message"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
